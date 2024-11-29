@@ -12,9 +12,12 @@ interface Product {
 
 function Product({ _id, title, price, bids, minBid, maxBid} : Product) {
 
+    // amount for new bit
     const [amount,setAmount] = useState(0)
 
+
     const placeBid = async () => {
+        //place bid for the product
 
     }
 
