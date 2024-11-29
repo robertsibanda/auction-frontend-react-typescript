@@ -1,0 +1,47 @@
+.login-container {
+    max-width: 13em;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid grey;
+    border-radius: 1em;
+}
+
+.login-container h2, h3 {
+    margin: auto;
+    color: white;
+}
+
+
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+
+    border: none;
+}
+
+.login-inputs input {
+   padding: 0.5rem;
+   margin: 1em;
+   border-radius: 0.6em;
+   box-shadow: red;
+   text-shadow: yellow;
+
+}
+
+.login-inputs button {
+    min-width: 4em;
+    max-width: 7em;
+    min-height: 0.8em;
+    max-height: 2.2em;
+
+    font-weight: bold;
+    border: none;
+    margin-left: 25%;
+}
+
+.login-container button:hover {
+    background-color: rgb(112, 141, 141);
+    border: none;
+}
